@@ -10,10 +10,10 @@ export default function Home() {
         <meta name="description" content="Gerald Bryant's Portfolio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-    <div className={styles.banner}>
+    <header className={styles.banner}>
       <div className={styles.overlay}></div>
 
-    </div>
+    </header>
       
     </div>
   )
