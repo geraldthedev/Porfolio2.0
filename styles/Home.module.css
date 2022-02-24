@@ -1,22 +1,40 @@
+
 .container {
   scroll-behavior: smooth;
   width: 100vw;
   height: 100vh;
-  border: 2em;
+
+}
+
+.main{
   background-color: rgba(5, 121, 189, 0.952);
+  
+
+
+}
+
+.banner{
+margin: 50vh;
+}
+
+.title{
+  font-size: 4em;
+  display: inline;
+  font-family: 'Libre Barcode 39';
+}
+
+.info{
+position: sticky;
 }
 
 .overlay{
   width: 100vw;
   height: 100vh;
   background-image: linear-gradient(to bottom, rgba(185, 198, 216, 0.952),  rgb(145, 175, 206), rgb(55, 130, 201));
-  z-index: 2;
-  position: fixed;
+
+
+ 
 }
 
 @media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
 }
